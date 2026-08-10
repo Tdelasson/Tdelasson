@@ -1,16 +1,47 @@
-## Hi there 👋
+# I'm Tobias, based in Copenhagen and open to AI Engineer roles
 
-<!--
-**Tdelasson/Tdelasson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I primarily build AI applications. Right now I'm doing my MSc in Computer Science & Engineering at DTU, focused on deep learning. I have a BSc in Software Engineering from Aalborg University, where I also spent some time doing full stack web dev at a local firm.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### What I do
+
+- Design, train and fine-tune neural networks
+- Wrap ML models into APIs and services people can actually use (FastAPI, Python, TypeScript)
+- Try to write AI code that doesn't fall apart in production
+  
+---
+
+### Featured Projects
+
+- **[VIPER — Real-Time Video Inpainting on Edge Devices](https://github.com/Tdelasson/Video-inpainter-for-edge-devices)**
+  First video inpainter engineered to run in real-time on an NVIDIA Jetson. Custom U-Net architecture with ConvGRU for temporal memory and gated depthwise separable convolutions that cut compute by >90% vs. standard convolutions. Built to make GPU-grade video inpainting work on edge hardware.
+
+- **[Spatio-Temporal Data Imputation for Road Networks (aSTEP, AAU)](https://github.com/astep-aau/Attribute-Prediction)**
+  ML pipeline for imputing missing travel times on road network data, combining Graph Neural Networks (GAT, GraphSAGE) for spatial structure with Bi-GRUs for temporal patterns. Includes an evaluation pipeline for comparing models and hyperparameters.
+
+---
+
+### Tools
+
+| Domain | Tech |
+| :--- | :--- |
+| **AI / Deep Learning** | PyTorch, Hugging Face, OpenCV, NumPy, TensorFlow |
+| **Backend & Web** | Python (FastAPI, Flask), C#, TypeScript, MSSQL |
+| **DevOps & Tools** | Git, Docker, Linux |
+
+---
+
+### Currently interested in
+
+- Fine-tuning and architecture tweaks for deep learning models
+- Building AI Agents with tool-use and function calling
+- Quantization & fast LLM inference
+- RAG, LLM integration, and model evaluation
+
+---
+
+### Reach me
+
+- LinkedIn: [linkedin.com/in/tobias-de-lasson](https://www.linkedin.com/in/tobias-de-lasson/)
+- Email: tobiasdelasson@hotmail.dk
