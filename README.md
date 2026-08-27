@@ -7,12 +7,15 @@ I primarily build AI applications. Right now I'm doing my MSc in Computer Scienc
 ### What I do
 
 - Design, train and fine-tune neural networks
-- Wrap ML models into APIs and services people can actually use (FastAPI, Python, TypeScript)
+- Wrap ML models into APIs and services people can actually use
 - Try to write AI code that doesn't fall apart in production
   
 ---
 
-### Featured Projects
+### Features Projects
+
+- **[Context Engine — Local-First Runtime for Context-Aware AI Agents](https://github.com/Tdelasson/context-engine)**  
+  Building a local-first runtime for context-aware AI applications, focused on deterministic agent execution, structured tool use, retrieval and persistent knowledge. The architecture uses an explicit state machine, typed tool contracts and a model gateway to keep LLM behavior observable and controllable rather than hiding application logic inside prompts.
 
 - **[VIPER — Real-Time Video Inpainting on Edge Devices](https://github.com/Tdelasson/Video-inpainter-for-edge-devices)**
   First video inpainter engineered to run in real-time on an NVIDIA Jetson. Custom U-Net architecture with ConvGRU for temporal memory and gated depthwise separable convolutions that cut compute by >90% vs. standard convolutions. Built to make GPU-grade video inpainting work on edge hardware.
@@ -26,8 +29,8 @@ I primarily build AI applications. Right now I'm doing my MSc in Computer Scienc
 
 | Domain | Tech |
 | :--- | :--- |
-| **AI / Deep Learning** | PyTorch, Hugging Face, OpenCV, NumPy, TensorFlow |
-| **Backend & Web** | Python (FastAPI, Flask), C#, TypeScript, MSSQL |
+| **AI / Deep Learning** | PyTorch, RAG, OpenCV, NumPy, TensorFlow |
+| **Backend & Web** | Python, C#, TypeScript, MSSQL |
 | **DevOps & Tools** | Git, Docker, Linux |
 
 ---
