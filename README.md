@@ -1,6 +1,6 @@
 # I'm Tobias, based in Copenhagen and open to AI Engineer roles
 
-I primarily build AI applications. Right now I'm doing my MSc in Computer Science & Engineering at DTU, focused on deep learning. I have a BSc in Software Engineering from Aalborg University, where I also spent some time doing full stack web dev at a local firm.
+I'm doing my MSc in Computer Science & Engineering at DTU, focused on deep learning. I have a BSc in Software Engineering from Aalborg University, where I also spent some time doing full stack web dev at a local firm.
 
 ---
 
@@ -15,7 +15,7 @@ I primarily build AI applications. Right now I'm doing my MSc in Computer Scienc
 ### Features Projects
 
 - **[Context Engine — Local-First Runtime for Context-Aware AI Agents](https://github.com/Tdelasson/context-engine)**  
-  Building a local-first runtime for context-aware AI applications, focused on deterministic agent execution, structured tool use, retrieval and persistent knowledge. The architecture uses an explicit state machine, typed tool contracts and a model gateway to keep LLM behavior observable and controllable rather than hiding application logic inside prompts.
+I'm currently building a local-first runtime for context-aware AI applications, focused on deterministic agent execution, structured tool use, retrieval and persistent knowledge. The architecture uses an explicit state machine, typed tool contracts and a model gateway to keep LLM behavior observable and controllable rather than hiding application logic inside prompts.
 
 - **[VIPER — Real-Time Video Inpainting on Edge Devices](https://github.com/Tdelasson/Video-inpainter-for-edge-devices)**
   First video inpainter engineered to run in real-time on an NVIDIA Jetson. Custom U-Net architecture with ConvGRU for temporal memory and gated depthwise separable convolutions that cut compute by >90% vs. standard convolutions. Built to make GPU-grade video inpainting work on edge hardware.
@@ -37,7 +37,8 @@ I primarily build AI applications. Right now I'm doing my MSc in Computer Scienc
 
 ### Currently interested in
 
-- Fine-tuning and architecture tweaks for deep learning models
+- Designing deep learning model architecture 
+- Fine-tuning 
 - Building AI Agents with tool-use and function calling
 - Quantization & fast LLM inference
 - RAG, LLM integration, and model evaluation
