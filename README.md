@@ -13,15 +13,16 @@ I'm doing my MSc in Computer Science & Engineering at DTU, focused on deep learn
 ---
 
 ### Features Projects
-
-- **[Context Engine — Local-First Runtime for Context-Aware AI Agents](https://github.com/Tdelasson/context-engine)**  
-I'm currently building a local-first runtime for context-aware AI applications, focused on deterministic agent execution, structured tool use, retrieval and persistent knowledge. The architecture uses an explicit state machine, typed tool contracts and a model gateway to keep LLM behavior observable and controllable rather than hiding application logic inside prompts.
-
 - **[VIPER — Real-Time Video Inpainting on Edge Devices](https://github.com/Tdelasson/Video-inpainter-for-edge-devices)**
   First video inpainter engineered to run in real-time on an NVIDIA Jetson. Custom U-Net architecture with ConvGRU for temporal memory and gated depthwise separable convolutions that cut compute by >90% vs. standard convolutions. Built to make GPU-grade video inpainting work on edge hardware.
 
 - **[Spatio-Temporal Data Imputation for Road Networks (aSTEP, AAU)](https://github.com/astep-aau/Attribute-Prediction)**
   ML pipeline for imputing missing travel times on road network data, combining Graph Neural Networks (GAT, GraphSAGE) for spatial structure with Bi-GRUs for temporal patterns. Includes an evaluation pipeline for comparing models and hyperparameters.
+
+
+- **[Context Engine — Local-First Runtime for Context-Aware AI Agents](https://github.com/Tdelasson/context-engine)**  
+I'm currently building a local-first runtime for context-aware AI applications, focused on deterministic agent execution, structured tool use, retrieval and persistent knowledge. The architecture uses an explicit state machine, typed tool contracts and a model gateway to keep LLM behavior observable and controllable rather than hiding application logic inside prompts.
+
 
 ---
 
